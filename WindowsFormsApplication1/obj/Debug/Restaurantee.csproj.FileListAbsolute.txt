@@ -36,3 +36,6 @@ C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\o
 C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Restaurantee.csproj.CoreCompileInputs.cache
 C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Nelsy\OneDrive\Escritorio\Trabajo\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Nelsy\OneDrive\Escritorio\Trabajo\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Nelsy\OneDrive\Escritorio\Trabajo\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

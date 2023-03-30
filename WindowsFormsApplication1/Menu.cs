@@ -89,5 +89,10 @@ namespace WindowsFormsApplication1
             this.Hide();
             f.Show(); 
         }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
