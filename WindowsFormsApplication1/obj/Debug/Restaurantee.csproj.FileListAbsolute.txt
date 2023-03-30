@@ -1,0 +1,38 @@
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Iniciar.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.siguiente.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Restaurantee.csproj.GenerateResource.Cache
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Restaurantee.csprojResolveAssemblyReference.cache
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Desayunos.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Carne.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pastas__Antojos_y_Ensaladas.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pollo_y_hamburguesas.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.DelMar.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Tomarorden.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Caldos.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Postres.resources
+C:\Users\Nelsy\OneDrive\Documentos\Visual Studio 2012\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Bebidas.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Restaurantee.csproj.AssemblyReference.cache
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Bebidas.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Caldos.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Carne.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.DelMar.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Desayunos.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Iniciar.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Menu.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pastas__Antojos_y_Ensaladas.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Pollo_y_hamburguesas.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Postres.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.siguiente.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Tomarorden.resources
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Restaurantee.csproj.GenerateResource.cache
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Restaurantee.csproj.CoreCompileInputs.cache
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\arlet\Documents\ITT\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

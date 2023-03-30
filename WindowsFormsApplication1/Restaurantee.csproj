@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA82EF68-D358-44C5-BEBD-D1E47B81E0A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Practica4">
+      <HintPath>..\..\Practica4\Practica4\bin\Debug\Practica4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bebidas.Designer.cs">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Caldos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caldos.Designer.cs">
+      <DependentUpon>Caldos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carne.Designer.cs">
+      <DependentUpon>Carne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DelMar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DelMar.Designer.cs">
+      <DependentUpon>DelMar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desayunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desayunos.Designer.cs">
+      <DependentUpon>Desayunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Iniciar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciar.Designer.cs">
+      <DependentUpon>Iniciar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pastas, Antojos y Ensaladas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pastas, Antojos y Ensaladas.Designer.cs">
+      <DependentUpon>Pastas, Antojos y Ensaladas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pollo y hamburguesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pollo y hamburguesas.Designer.cs">
+      <DependentUpon>Pollo y hamburguesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Postres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Postres.Designer.cs">
+      <DependentUpon>Postres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="siguiente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="siguiente.Designer.cs">
+      <DependentUpon>siguiente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tomarorden.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tomarorden.Designer.cs">
+      <DependentUpon>Tomarorden.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Bebidas.resx">
+      <DependentUpon>Bebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caldos.resx">
+      <DependentUpon>Caldos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carne.resx">
+      <DependentUpon>Carne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DelMar.resx">
+      <DependentUpon>DelMar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desayunos.resx">
+      <DependentUpon>Desayunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Iniciar.resx">
+      <DependentUpon>Iniciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pastas, Antojos y Ensaladas.resx">
+      <DependentUpon>Pastas, Antojos y Ensaladas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pollo y hamburguesas.resx">
+      <DependentUpon>Pollo y hamburguesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Postres.resx">
+      <DependentUpon>Postres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="siguiente.resx">
+      <DependentUpon>siguiente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Tomarorden.resx">
+      <DependentUpon>Tomarorden.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARNE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CasaBlanca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desayuno-ingles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburguesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panqueques.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sopa-caliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taza-de-cafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zumo-de-naranja %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zumo-de-naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafetera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camaron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerveza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crepe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frappe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jarra-de-agua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\papas-fritas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pez %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rebanada-de-pastel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sopa.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
