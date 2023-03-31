@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using  Practica4;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
+// se agrego la libreria que antes habiamos creado
 //En esta clase agregamos el codigo de nuestra aplicación. 
 
 namespace WindowsFormsApplication1

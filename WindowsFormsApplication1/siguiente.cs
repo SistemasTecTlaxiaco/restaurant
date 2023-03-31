@@ -19,6 +19,7 @@ namespace WindowsFormsApplication1
 
         private void menu_Click(object sender, EventArgs e)
         {
+            //Del 
             Menu f = new Menu();
             this.Hide();
             f.Show();
@@ -26,6 +27,7 @@ namespace WindowsFormsApplication1
 
         private void regresar_Click(object sender, EventArgs e)
         {
+            //En el windows for llamado siguiente en el boton regresar  se crea un windows para regresarlo a la ventana de inicio
             Iniciar f = new Iniciar();
             this.Hide();
             f.Show(); 
@@ -38,6 +40,7 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //En el boton ordenar  se crea un windows para cuando seleccionemos el boton ordenar nos mande a la ventana de tomar orden
             Tomarorden f = new Tomarorden();
             this.Hide();
             f.Show(); 
