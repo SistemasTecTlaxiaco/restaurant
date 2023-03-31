@@ -54,12 +54,12 @@
             // 
             // menu
             // 
-            this.menu.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.menu.BackColor = System.Drawing.SystemColors.HotTrack;
             this.menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.menu.ImageKey = "(ninguno)";
             this.menu.Location = new System.Drawing.Point(329, 343);
-            this.menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.menu.Margin = new System.Windows.Forms.Padding(2);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(144, 50);
             this.menu.TabIndex = 4;
@@ -74,7 +74,7 @@
             this.regresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.regresar.ImageKey = "(ninguno)";
             this.regresar.Location = new System.Drawing.Point(9, 343);
-            this.regresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.regresar.Margin = new System.Windows.Forms.Padding(2);
             this.regresar.Name = "regresar";
             this.regresar.Size = new System.Drawing.Size(144, 50);
             this.regresar.TabIndex = 5;
@@ -84,12 +84,12 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageKey = "(ninguno)";
             this.button2.Location = new System.Drawing.Point(166, 343);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(144, 50);
             this.button2.TabIndex = 18;
@@ -101,7 +101,7 @@
             // 
             this.adorno.Image = global::WindowsFormsApplication1.Properties.Resources.Imagen1;
             this.adorno.Location = new System.Drawing.Point(374, 28);
-            this.adorno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.adorno.Margin = new System.Windows.Forms.Padding(2);
             this.adorno.Name = "adorno";
             this.adorno.Size = new System.Drawing.Size(136, 58);
             this.adorno.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -112,7 +112,7 @@
             // 
             this.logo.Image = global::WindowsFormsApplication1.Properties.Resources.Imagen2;
             this.logo.Location = new System.Drawing.Point(112, 171);
-            this.logo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.logo.Margin = new System.Windows.Forms.Padding(2);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(292, 155);
             this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -123,7 +123,7 @@
             // 
             this.pictureBox1.Image = global::WindowsFormsApplication1.Properties.Resources.Imagen1;
             this.pictureBox1.Location = new System.Drawing.Point(17, 28);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(136, 58);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -143,7 +143,7 @@
             this.Controls.Add(this.regresar);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "siguiente";
             this.Text = "siguente";
             ((System.ComponentModel.ISupportInitialize)(this.adorno)).EndInit();
