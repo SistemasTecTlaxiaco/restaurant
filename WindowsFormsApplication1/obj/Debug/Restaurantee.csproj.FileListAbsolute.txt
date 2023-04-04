@@ -57,3 +57,6 @@ C:\Users\anami\OneDrive\Escritorio\Trab\actividad-6-diseno-de-app-con-windows-fo
 C:\Users\anami\OneDrive\Escritorio\Trab\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\anami\OneDrive\Escritorio\Trab\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Tomarorden.resources
 C:\Users\anami\OneDrive\Escritorio\Trab\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\Restaurantee.csproj.GenerateResource.Cache
+C:\Users\LUCERO\Desktop\p5\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\LUCERO\Desktop\p5\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\LUCERO\Desktop\p5\actividad-6-diseno-de-app-con-windows-form-equipo-mana\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

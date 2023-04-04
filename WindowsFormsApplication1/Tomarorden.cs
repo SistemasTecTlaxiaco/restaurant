@@ -18,7 +18,7 @@ namespace WindowsFormsApplication1
     {
         public Tomarorden()
         {
-            InitializeComponent();
+            InitializeComponent();// inicualiza los componentes de la IU
         }
         String Desayuno, resultado,Pasta,Pollo,Carne,Mar,Caldo,Postre,Bebida;
         private void button1_Click(object sender, EventArgs e)
@@ -38,7 +38,7 @@ namespace WindowsFormsApplication1
             {
             }
             else
-                Orddesayuno.Focus();
+                Orddesayuno.Focus();// metodo para controles personalizados 
 
             resultado = Ordenar.Orden1(Desayuno);
             resultado = Ordenar.Orden2(Pasta);

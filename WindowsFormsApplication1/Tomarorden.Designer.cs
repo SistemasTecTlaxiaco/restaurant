@@ -48,7 +48,7 @@
             // ordplatillos
             // 
             this.ordplatillos.Location = new System.Drawing.Point(218, 170);
-            this.ordplatillos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ordplatillos.Margin = new System.Windows.Forms.Padding(2);
             this.ordplatillos.Name = "ordplatillos";
             this.ordplatillos.Size = new System.Drawing.Size(185, 20);
             this.ordplatillos.TabIndex = 26;
@@ -57,7 +57,7 @@
             // ordpostres
             // 
             this.ordpostres.Location = new System.Drawing.Point(218, 202);
-            this.ordpostres.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ordpostres.Margin = new System.Windows.Forms.Padding(2);
             this.ordpostres.Name = "ordpostres";
             this.ordpostres.Size = new System.Drawing.Size(185, 20);
             this.ordpostres.TabIndex = 25;
@@ -65,7 +65,7 @@
             // ordbebidas
             // 
             this.ordbebidas.Location = new System.Drawing.Point(218, 239);
-            this.ordbebidas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ordbebidas.Margin = new System.Windows.Forms.Padding(2);
             this.ordbebidas.Name = "ordbebidas";
             this.ordbebidas.Size = new System.Drawing.Size(185, 20);
             this.ordbebidas.TabIndex = 24;
@@ -73,7 +73,7 @@
             // Orddesayuno
             // 
             this.Orddesayuno.Location = new System.Drawing.Point(218, 139);
-            this.Orddesayuno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Orddesayuno.Margin = new System.Windows.Forms.Padding(2);
             this.Orddesayuno.Name = "Orddesayuno";
             this.Orddesayuno.Size = new System.Drawing.Size(185, 20);
             this.Orddesayuno.TabIndex = 23;
@@ -138,7 +138,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Fredoka One", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(159, 34);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
@@ -153,7 +153,7 @@
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.ImageKey = "(ninguno)";
             this.button2.Location = new System.Drawing.Point(338, 318);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(126, 37);
             this.button2.TabIndex = 30;
@@ -168,7 +168,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.ImageKey = "(ninguno)";
             this.button1.Location = new System.Drawing.Point(192, 318);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 37);
             this.button1.TabIndex = 31;
@@ -183,7 +183,7 @@
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.ImageKey = "(ninguno)";
             this.button3.Location = new System.Drawing.Point(50, 318);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(126, 37);
             this.button3.TabIndex = 32;
@@ -199,7 +199,7 @@
             this.menucasa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.menucasa.ForeColor = System.Drawing.Color.MidnightBlue;
             this.menucasa.Location = new System.Drawing.Point(9, 20);
-            this.menucasa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.menucasa.Margin = new System.Windows.Forms.Padding(2);
             this.menucasa.Name = "menucasa";
             this.menucasa.Size = new System.Drawing.Size(86, 59);
             this.menucasa.TabIndex = 35;
@@ -213,7 +213,7 @@
             this.regresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.regresar.ImageKey = "(ninguno)";
             this.regresar.Location = new System.Drawing.Point(192, 388);
-            this.regresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.regresar.Margin = new System.Windows.Forms.Padding(2);
             this.regresar.Name = "regresar";
             this.regresar.Size = new System.Drawing.Size(126, 49);
             this.regresar.TabIndex = 36;
@@ -243,7 +243,7 @@
             this.Controls.Add(this.Desayunos);
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Tomarorden";
             this.Text = "Tomarorden";
             this.Load += new System.EventHandler(this.Tomarorden_Load);

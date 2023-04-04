@@ -54,6 +54,7 @@
             // 
             // menu
             // 
+            this.menu.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.menu.BackColor = System.Drawing.SystemColors.HotTrack;
             this.menu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -64,6 +65,7 @@
             this.menu.Size = new System.Drawing.Size(144, 50);
             this.menu.TabIndex = 4;
             this.menu.Text = "MOSTRAR MENÚ";
+            this.menu.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.menu.UseVisualStyleBackColor = false;
             this.menu.Click += new System.EventHandler(this.menu_Click);
             // 

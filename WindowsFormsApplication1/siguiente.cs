@@ -14,12 +14,12 @@ namespace WindowsFormsApplication1
     {
         public siguiente()
         {
-            InitializeComponent();
+            InitializeComponent();//inicializacion de los componentes
         }
 
         private void menu_Click(object sender, EventArgs e)
         {
-            //Del 
+            // lineas de codigo que nos permite mostrar el menu 
             Menu f = new Menu();
             this.Hide();
             f.Show();
