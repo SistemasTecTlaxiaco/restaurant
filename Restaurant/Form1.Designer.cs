@@ -40,13 +40,15 @@
             ordbebidas = new ComboBox();
             ordpostres = new ComboBox();
             ordplatillos = new ComboBox();
-            btGuardar = new Button();
+            btBuscar = new Button();
             INICIAR_COBRO = new Button();
             Borrar_Orden = new Button();
             Cerrar = new Button();
             logo = new PictureBox();
             toolStrip1 = new ToolStrip();
+            cONSULTARToolStripSplitBtn = new ToolStripSplitButton();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
+            toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -155,16 +157,16 @@
             ordplatillos.Size = new Size(267, 23);
             ordplatillos.TabIndex = 37;
             // 
-            // btGuardar
+            // btBuscar
             // 
-            btGuardar.BackColor = SystemColors.MenuHighlight;
-            btGuardar.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btGuardar.Location = new Point(571, 197);
-            btGuardar.Name = "btGuardar";
-            btGuardar.Size = new Size(94, 49);
-            btGuardar.TabIndex = 39;
-            btGuardar.Text = "GUARDAR";
-            btGuardar.UseVisualStyleBackColor = false;
+            btBuscar.BackColor = SystemColors.MenuHighlight;
+            btBuscar.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btBuscar.Location = new Point(571, 197);
+            btBuscar.Name = "btBuscar";
+            btBuscar.Size = new Size(94, 49);
+            btBuscar.TabIndex = 39;
+            btBuscar.Text = "BUSCAR";
+            btBuscar.UseVisualStyleBackColor = false;
             // 
             // INICIAR_COBRO
             // 
@@ -215,11 +217,22 @@
             // 
             // toolStrip1
             // 
+            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 25);
             toolStrip1.TabIndex = 44;
             toolStrip1.Text = "toolStrip1";
+            // 
+            // cONSULTARToolStripSplitBtn
+            // 
+            cONSULTARToolStripSplitBtn.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            cONSULTARToolStripSplitBtn.Image = (Image)resources.GetObject("cONSULTARToolStripSplitBtn.Image");
+            cONSULTARToolStripSplitBtn.ImageTransparentColor = Color.Magenta;
+            cONSULTARToolStripSplitBtn.Name = "cONSULTARToolStripSplitBtn";
+            cONSULTARToolStripSplitBtn.Size = new Size(88, 22);
+            cONSULTARToolStripSplitBtn.Text = "CONSULTAR";
+            cONSULTARToolStripSplitBtn.ButtonClick += cONSULTARToolStripSplitBtn_ButtonClick;
             // 
             // Form1
             // 
@@ -232,7 +245,7 @@
             Controls.Add(Cerrar);
             Controls.Add(Borrar_Orden);
             Controls.Add(INICIAR_COBRO);
-            Controls.Add(btGuardar);
+            Controls.Add(btBuscar);
             Controls.Add(ordplatillos);
             Controls.Add(ordpostres);
             Controls.Add(ordbebidas);
@@ -249,6 +262,8 @@
             Text = "Tomarorden";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)logo).EndInit();
+            toolStrip1.ResumeLayout(false);
+            toolStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -266,11 +281,12 @@
         private ComboBox ordbebidas;
         private ComboBox ordpostres;
         private ComboBox ordplatillos;
-        private Button btGuardar;
+        private Button btBuscar;
         private Button INICIAR_COBRO;
         private Button Borrar_Orden;
         private Button Cerrar;
         private PictureBox logo;
         private ToolStrip toolStrip1;
+        private ToolStripSplitButton cONSULTARToolStripSplitBtn;
     }
 }

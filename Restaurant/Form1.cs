@@ -12,6 +12,33 @@ namespace Restaurant
         {
             InitializeComponent();
             Iniciar();
+            InicializaConsulta();
+        }
+        private string operacion = "";
+        private void InicializaConsulta()
+        {
+            operacion = "";
+
+            Orddesayuno.Text = null;
+            Orddesayuno.Enabled = true;
+            ordplatillos.Text = null;
+            ordplatillos.Enabled = false;
+            ordpostres.Text = null;
+            ordpostres.Enabled = false;
+            ordbebidas.Text = null;
+            ordbebidas.Enabled = false;
+            TOTAL.Text = null;
+            TOTAL.Enabled = false;
+
+            INICIAR_COBRO.Enabled = false;
+            INICIAR_COBRO.Visible = false;
+            Borrar_Orden.Enabled = false;
+            Borrar_Orden.Visible = false;
+            Cerrar.Enabled = false;
+            Cerrar.Visible = false;
+            //
+            btBuscar.Enabled = true;
+            btBuscar.Visible = true;
         }
         private void INICIAR_COBRO_Click(object sender, EventArgs e)
         {
@@ -85,6 +112,20 @@ namespace Restaurant
         private void grilla_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void cONSULTARToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void toolStripSplitButton1_ButtonClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cONSULTARToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
+        {
+            InicializaConsulta();
         }
     }
 }
