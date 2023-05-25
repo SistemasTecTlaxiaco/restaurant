@@ -47,6 +47,7 @@
             logo = new PictureBox();
             toolStrip1 = new ToolStrip();
             cONSULTARToolStripSplitBtn = new ToolStripSplitButton();
+            nUEVOToolStripSplitBtn = new ToolStripSplitButton();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             toolStrip1.SuspendLayout();
             SuspendLayout();
@@ -167,6 +168,7 @@
             btBuscar.TabIndex = 39;
             btBuscar.Text = "BUSCAR";
             btBuscar.UseVisualStyleBackColor = false;
+            btBuscar.Click += btBuscar_Click;
             // 
             // INICIAR_COBRO
             // 
@@ -217,7 +219,7 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn, nUEVOToolStripSplitBtn });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 25);
@@ -227,12 +229,24 @@
             // cONSULTARToolStripSplitBtn
             // 
             cONSULTARToolStripSplitBtn.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            cONSULTARToolStripSplitBtn.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             cONSULTARToolStripSplitBtn.Image = (Image)resources.GetObject("cONSULTARToolStripSplitBtn.Image");
             cONSULTARToolStripSplitBtn.ImageTransparentColor = Color.Magenta;
             cONSULTARToolStripSplitBtn.Name = "cONSULTARToolStripSplitBtn";
-            cONSULTARToolStripSplitBtn.Size = new Size(88, 22);
+            cONSULTARToolStripSplitBtn.Size = new Size(119, 22);
             cONSULTARToolStripSplitBtn.Text = "CONSULTAR";
             cONSULTARToolStripSplitBtn.ButtonClick += cONSULTARToolStripSplitBtn_ButtonClick;
+            // 
+            // nUEVOToolStripSplitBtn
+            // 
+            nUEVOToolStripSplitBtn.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            nUEVOToolStripSplitBtn.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            nUEVOToolStripSplitBtn.Image = (Image)resources.GetObject("nUEVOToolStripSplitBtn.Image");
+            nUEVOToolStripSplitBtn.ImageTransparentColor = Color.Magenta;
+            nUEVOToolStripSplitBtn.Name = "nUEVOToolStripSplitBtn";
+            nUEVOToolStripSplitBtn.Size = new Size(80, 22);
+            nUEVOToolStripSplitBtn.Text = "NUEVO";
+            nUEVOToolStripSplitBtn.ButtonClick += nUEVOToolStripSplitBtn_ButtonClick;
             // 
             // Form1
             // 
@@ -288,5 +302,6 @@
         private PictureBox logo;
         private ToolStrip toolStrip1;
         private ToolStripSplitButton cONSULTARToolStripSplitBtn;
+        private ToolStripSplitButton nUEVOToolStripSplitBtn;
     }
 }

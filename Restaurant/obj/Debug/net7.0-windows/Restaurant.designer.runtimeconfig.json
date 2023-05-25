@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\LUCERO\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\LUCERO\\.nuget\\packages"
+      "C:\\Users\\arlet\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\arlet\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
