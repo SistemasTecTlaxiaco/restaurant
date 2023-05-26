@@ -48,6 +48,8 @@
             toolStrip1 = new ToolStrip();
             cONSULTARToolStripSplitBtn = new ToolStripSplitButton();
             nUEVOToolStripSplitBtn = new ToolStripSplitButton();
+            eDITARToolStripSplitBtn = new ToolStripSplitButton();
+            eLIMINARToolStripSplitBtn = new ToolStripSplitButton();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             toolStrip1.SuspendLayout();
             SuspendLayout();
@@ -162,7 +164,7 @@
             // 
             btBuscar.BackColor = SystemColors.MenuHighlight;
             btBuscar.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            btBuscar.Location = new Point(571, 197);
+            btBuscar.Location = new Point(596, 140);
             btBuscar.Name = "btBuscar";
             btBuscar.Size = new Size(94, 49);
             btBuscar.TabIndex = 39;
@@ -210,16 +212,16 @@
             // 
             logo.BackColor = SystemColors.ActiveCaptionText;
             logo.Image = (Image)resources.GetObject("logo.Image");
-            logo.Location = new Point(558, 272);
+            logo.Location = new Point(530, 223);
             logo.Name = "logo";
-            logo.Size = new Size(230, 154);
+            logo.Size = new Size(258, 203);
             logo.SizeMode = PictureBoxSizeMode.Zoom;
             logo.TabIndex = 43;
             logo.TabStop = false;
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn, nUEVOToolStripSplitBtn });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn, nUEVOToolStripSplitBtn, eDITARToolStripSplitBtn, eLIMINARToolStripSplitBtn });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 25);
@@ -247,6 +249,28 @@
             nUEVOToolStripSplitBtn.Size = new Size(80, 22);
             nUEVOToolStripSplitBtn.Text = "NUEVO";
             nUEVOToolStripSplitBtn.ButtonClick += nUEVOToolStripSplitBtn_ButtonClick;
+            // 
+            // eDITARToolStripSplitBtn
+            // 
+            eDITARToolStripSplitBtn.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            eDITARToolStripSplitBtn.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            eDITARToolStripSplitBtn.Image = (Image)resources.GetObject("eDITARToolStripSplitBtn.Image");
+            eDITARToolStripSplitBtn.ImageTransparentColor = Color.Magenta;
+            eDITARToolStripSplitBtn.Name = "eDITARToolStripSplitBtn";
+            eDITARToolStripSplitBtn.Size = new Size(80, 22);
+            eDITARToolStripSplitBtn.Text = "EDITAR";
+            eDITARToolStripSplitBtn.ButtonClick += eDITARToolStripSplitBtn_ButtonClick;
+            // 
+            // eLIMINARToolStripSplitBtn
+            // 
+            eLIMINARToolStripSplitBtn.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            eLIMINARToolStripSplitBtn.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            eLIMINARToolStripSplitBtn.Image = (Image)resources.GetObject("eLIMINARToolStripSplitBtn.Image");
+            eLIMINARToolStripSplitBtn.ImageTransparentColor = Color.Magenta;
+            eLIMINARToolStripSplitBtn.Name = "eLIMINARToolStripSplitBtn";
+            eLIMINARToolStripSplitBtn.Size = new Size(96, 22);
+            eLIMINARToolStripSplitBtn.Text = "ELIMINAR";
+            eLIMINARToolStripSplitBtn.ButtonClick += eLIMINARToolStripSplitBtn_ButtonClick;
             // 
             // Form1
             // 
@@ -303,5 +327,7 @@
         private ToolStrip toolStrip1;
         private ToolStripSplitButton cONSULTARToolStripSplitBtn;
         private ToolStripSplitButton nUEVOToolStripSplitBtn;
+        private ToolStripSplitButton eDITARToolStripSplitBtn;
+        private ToolStripSplitButton eLIMINARToolStripSplitBtn;
     }
 }

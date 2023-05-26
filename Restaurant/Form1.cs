@@ -113,6 +113,56 @@ namespace Restaurant
             btBuscar.Enabled = false;
             btBuscar.Visible = false;
         }
+
+        private void InicializaEdicion()
+        {
+            operacion = "editar";
+
+            Orddesayuno.Text = null;
+            Orddesayuno.Enabled = true;
+            ordplatillos.Text = null;
+            ordplatillos.Enabled = true;
+            ordpostres.Text = null;
+            ordpostres.Enabled = true;
+            ordbebidas.Text = null;
+            ordbebidas.Enabled = true;
+            TOTAL.Text = null;
+            TOTAL.Enabled = true;
+
+
+            INICIAR_COBRO.Enabled = true;
+            INICIAR_COBRO.Visible = true;
+            Borrar_Orden.Enabled = true;
+            Borrar_Orden.Visible = true;
+            Cerrar.Enabled = true;
+            Cerrar.Visible = true;
+            //
+            btBuscar.Enabled = true;
+            btBuscar.Visible = true;
+        }
+        private void InicializaEliminar()
+        {
+            operacion = "eliminar";
+
+            Orddesayuno.Text = null;
+            Orddesayuno.Enabled = true;
+            ordplatillos.Text = null;
+            ordplatillos.Enabled = false;
+            ordpostres.Text = null;
+            ordpostres.Enabled = false;
+            ordbebidas.Text = null;
+            ordbebidas.Enabled = false;
+
+            INICIAR_COBRO.Enabled = true;
+            INICIAR_COBRO.Visible = true;
+            Borrar_Orden.Enabled = true;
+            Borrar_Orden.Visible = true;
+            Cerrar.Enabled = true;
+            Cerrar.Visible = true;
+
+            btBuscar.Enabled = true;
+            btBuscar.Visible = true;
+        }
         private void logo_Click(object sender, EventArgs e)
         {
 
@@ -156,7 +206,7 @@ namespace Restaurant
 
         private void Nuevo_Click(object sender, EventArgs e)
         {
-           // InicializaNuevo();
+            // InicializaNuevo();
         }
         private void presionaBuscar()
         {
@@ -191,6 +241,16 @@ namespace Restaurant
         private void nUEVOToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
         {
             InicializaNuevo();
+        }
+
+        private void eDITARToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
+        {
+            InicializaEdicion();
+        }
+
+        private void eLIMINARToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
+        {
+            InicializaEliminar();
         }
     }
 }
