@@ -8,19 +8,19 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\arlet\\.nuget\\packages\\": {}
+    "C:\\Users\\LUCERO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arlet\\Desktop\\Restaurant\\restaurant\\Restaurant\\Restaurant.csproj",
+      "projectUniqueName": "C:\\Users\\LUCERO\\Desktop\\rest\\restaurant\\Restaurant\\Restaurant.csproj",
       "projectName": "Restaurant",
-      "projectPath": "C:\\Users\\arlet\\Desktop\\Restaurant\\restaurant\\Restaurant\\Restaurant.csproj",
-      "packagesPath": "C:\\Users\\arlet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arlet\\Desktop\\Restaurant\\restaurant\\Restaurant\\obj\\",
+      "projectPath": "C:\\Users\\LUCERO\\Desktop\\rest\\restaurant\\Restaurant\\Restaurant.csproj",
+      "packagesPath": "C:\\Users\\LUCERO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LUCERO\\Desktop\\rest\\restaurant\\Restaurant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\arlet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LUCERO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

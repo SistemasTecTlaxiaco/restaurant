@@ -5,13 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace Restaurant
 {
     public class clConexion
     {
         //variables necesarias para la conexion con la base de datos
-        private string stringconexion = "server=localhost; user id=root; pwd=; database=restaurante";
+        private string stringconexion = "server=localhost;port=3306;database=restaurante;user=root; password=";
         private MySqlConnection conexion;
 
         //constructor
