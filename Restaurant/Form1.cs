@@ -252,6 +252,11 @@ namespace Restaurant
         {
             InicializaEliminar();
         }
+
+        private void aCTUALIZARSTOCKToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
+        {
+           
+        }
     }
     //El usuario Nelsy21 realizó modificación al código, debido a problemas tecnicos en su equipo no realizó los cambios desde su usuario
 }

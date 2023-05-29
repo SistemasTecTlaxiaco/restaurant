@@ -9,6 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\PuntoVenta-1\Sistemas_de_Ventas\Sistemas_de_Ventas\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data">
       <HintPath>..\..\..\PuntoVenta-1\Sistemas_de_Ventas\ClasesSistemaVentas\bin\Debug\MySql.Data.dll</HintPath>
     </Reference>

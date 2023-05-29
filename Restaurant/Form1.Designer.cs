@@ -50,6 +50,7 @@
             nUEVOToolStripSplitBtn = new ToolStripSplitButton();
             eDITARToolStripSplitBtn = new ToolStripSplitButton();
             eLIMINARToolStripSplitBtn = new ToolStripSplitButton();
+            aCTUALIZARSTOCKToolStripSplitBtn = new ToolStripSplitButton();
             ((System.ComponentModel.ISupportInitialize)logo).BeginInit();
             toolStrip1.SuspendLayout();
             SuspendLayout();
@@ -221,7 +222,7 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn, nUEVOToolStripSplitBtn, eDITARToolStripSplitBtn, eLIMINARToolStripSplitBtn });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { cONSULTARToolStripSplitBtn, nUEVOToolStripSplitBtn, eDITARToolStripSplitBtn, eLIMINARToolStripSplitBtn, aCTUALIZARSTOCKToolStripSplitBtn });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(800, 25);
@@ -271,6 +272,17 @@
             eLIMINARToolStripSplitBtn.Size = new Size(96, 22);
             eLIMINARToolStripSplitBtn.Text = "ELIMINAR";
             eLIMINARToolStripSplitBtn.ButtonClick += eLIMINARToolStripSplitBtn_ButtonClick;
+            // 
+            // aCTUALIZARSTOCKToolStripSplitBtn
+            // 
+            aCTUALIZARSTOCKToolStripSplitBtn.DisplayStyle = ToolStripItemDisplayStyle.Text;
+            aCTUALIZARSTOCKToolStripSplitBtn.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            aCTUALIZARSTOCKToolStripSplitBtn.Image = (Image)resources.GetObject("aCTUALIZARSTOCKToolStripSplitBtn.Image");
+            aCTUALIZARSTOCKToolStripSplitBtn.ImageTransparentColor = Color.Magenta;
+            aCTUALIZARSTOCKToolStripSplitBtn.Name = "aCTUALIZARSTOCKToolStripSplitBtn";
+            aCTUALIZARSTOCKToolStripSplitBtn.Size = new Size(180, 22);
+            aCTUALIZARSTOCKToolStripSplitBtn.Text = "ACTUALIZAR STOCK";
+            aCTUALIZARSTOCKToolStripSplitBtn.ButtonClick += aCTUALIZARSTOCKToolStripSplitBtn_ButtonClick;
             // 
             // Form1
             // 
@@ -329,5 +341,6 @@
         private ToolStripSplitButton nUEVOToolStripSplitBtn;
         private ToolStripSplitButton eDITARToolStripSplitBtn;
         private ToolStripSplitButton eLIMINARToolStripSplitBtn;
+        private ToolStripSplitButton aCTUALIZARSTOCKToolStripSplitBtn;
     }
 }
