@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace Restaurant
 {
     public class clOrdenar
     {
         //propiedades...
-        private int IdOrdenar;
-        public int IdOrdenar1
+        private int Codigo;
+        public int Codigo1
         {
-            get { return IdOrdenar; }
-            set { IdOrdenar = value; }
+            get { return Codigo; }
+            set { Codigo = value; }
         }
 
         private string desayunos;
@@ -63,7 +65,7 @@ namespace Restaurant
         {
             try
             {
-                IdOrdenar = int.Parse(datos.GetValue(0).ToString());
+                Codigo = int.Parse(datos.GetValue(0).ToString());
                 platillos = datos.GetValue(1).ToString();
                 desayunos = datos.GetValue(2).ToString();
                 postres = datos.GetValue(3).ToString();
@@ -79,7 +81,7 @@ namespace Restaurant
 
         public clOrdenar()
         {
-            IdOrdenar = 0;
+            Codigo = 0;
             platillos = "";
             desayunos = "";
             postres = "";

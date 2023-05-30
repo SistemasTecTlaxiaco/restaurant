@@ -13,9 +13,6 @@ using System.IO;
 using iTextSharp;
 using iTextSharp.text.pdf;
 using iTextSharp.text;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
-using System.Drawing.Printing;
-using System.Reflection.Metadata;
 
 namespace Restaurant
 {

@@ -71,18 +71,18 @@ namespace Restaurant
             catch { }
         }
 
-        public static void RegistrarDetalle(string idOrdenarOrd, float cant, float subT, float iva, float Tot)
+        public static void RegistrarDetalle(string CodigoP, float cant, float subT, float iva, float Tot)
         {
-            string consulta = "insert into restaurante.DetalleFactura (IdOrdenarO,Cantidad,SubTotal,Iva,Total)" +
-                "values('" + idOrdenarOrd +  "'," + cant + "," + subT + "," + iva + "," + Tot + ");";
+            string consulta = "insert into restaurante.DetalleFactura (CodigoP,Cantidad,SubTotal,Iva,Total)" +
+                "values('" + CodigoP +  "'," + cant + "," + subT + "," + iva + "," + Tot + ");";
             clConexion conexion1 = new clConexion();
             MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion1.ObtenerConexion());
             enviarSQL.ExecuteNonQuery();
 
-            //update restaurante.Ordenar set Stock = 10 where IdOrdenar = 1
-            clOrdenar prod = clConsultasOrdenar.BuscarporIdOrdenar(idOrdenarOrd);
+            //update restaurante.Ordenar set Stock = 10 where Codigo = 1
+            clOrdenar prod = clConsultasOrdenar.BuscarPorPlatillos(CodigoP);
             prod.Stock1 = prod.Stock1 - cant;
-            string consulta2 = "update restaurante.Ordenar set Stock = " + prod.Stock1 + " where IdOrdenar = " + prod.IdOrdenar1;
+            string consulta2 = "update restaurante.Ordenar set Stock = " + prod.Stock1 + " where Codigo = " + prod.Codigo1;
 
             clConexion conexion2 = new clConexion();
             MySqlCommand enviarSQL2 = new MySqlCommand(consulta2, conexion2.ObtenerConexion());

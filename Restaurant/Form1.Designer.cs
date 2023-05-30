@@ -41,9 +41,8 @@
             ordpostres = new ComboBox();
             ordplatillos = new ComboBox();
             btBuscar = new Button();
-            INICIAR_COBRO = new Button();
-            Borrar_Orden = new Button();
-            Cerrar = new Button();
+            btAceptar = new Button();
+            btCancelar = new Button();
             logo = new PictureBox();
             toolStrip1 = new ToolStrip();
             cONSULTARToolStripSplitBtn = new ToolStripSplitButton();
@@ -173,41 +172,29 @@
             btBuscar.UseVisualStyleBackColor = false;
             btBuscar.Click += btBuscar_Click;
             // 
-            // INICIAR_COBRO
+            // btAceptar
             // 
-            INICIAR_COBRO.BackColor = SystemColors.MenuHighlight;
-            INICIAR_COBRO.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            INICIAR_COBRO.Location = new Point(104, 348);
-            INICIAR_COBRO.Name = "INICIAR_COBRO";
-            INICIAR_COBRO.Size = new Size(94, 58);
-            INICIAR_COBRO.TabIndex = 40;
-            INICIAR_COBRO.Text = "INICIAR COBRO";
-            INICIAR_COBRO.UseVisualStyleBackColor = false;
-            INICIAR_COBRO.Click += INICIAR_COBRO_Click;
+            btAceptar.BackColor = SystemColors.MenuHighlight;
+            btAceptar.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btAceptar.Location = new Point(147, 348);
+            btAceptar.Name = "btAceptar";
+            btAceptar.Size = new Size(94, 58);
+            btAceptar.TabIndex = 40;
+            btAceptar.Text = "ACEPTAR";
+            btAceptar.UseVisualStyleBackColor = false;
+            btAceptar.Click += btAceptar_Click;
             // 
-            // Borrar_Orden
+            // btCancelar
             // 
-            Borrar_Orden.BackColor = SystemColors.MenuHighlight;
-            Borrar_Orden.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Borrar_Orden.Location = new Point(272, 348);
-            Borrar_Orden.Name = "Borrar_Orden";
-            Borrar_Orden.Size = new Size(94, 58);
-            Borrar_Orden.TabIndex = 41;
-            Borrar_Orden.Text = "BORRAR ORDEN";
-            Borrar_Orden.UseVisualStyleBackColor = false;
-            Borrar_Orden.Click += Borrar_Orden_Click;
-            // 
-            // Cerrar
-            // 
-            Cerrar.BackColor = SystemColors.MenuHighlight;
-            Cerrar.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            Cerrar.Location = new Point(430, 348);
-            Cerrar.Name = "Cerrar";
-            Cerrar.Size = new Size(94, 58);
-            Cerrar.TabIndex = 42;
-            Cerrar.Text = "CERRAR";
-            Cerrar.UseVisualStyleBackColor = false;
-            Cerrar.Click += Cerrar_Click;
+            btCancelar.BackColor = SystemColors.MenuHighlight;
+            btCancelar.Font = new Font("Fredoka One", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btCancelar.Location = new Point(339, 348);
+            btCancelar.Name = "btCancelar";
+            btCancelar.Size = new Size(107, 58);
+            btCancelar.TabIndex = 42;
+            btCancelar.Text = "CANCELAR";
+            btCancelar.UseVisualStyleBackColor = false;
+            btCancelar.Click += Cerrar_Click;
             // 
             // logo
             // 
@@ -292,9 +279,8 @@
             ClientSize = new Size(800, 450);
             Controls.Add(toolStrip1);
             Controls.Add(logo);
-            Controls.Add(Cerrar);
-            Controls.Add(Borrar_Orden);
-            Controls.Add(INICIAR_COBRO);
+            Controls.Add(btCancelar);
+            Controls.Add(btAceptar);
             Controls.Add(btBuscar);
             Controls.Add(ordplatillos);
             Controls.Add(ordpostres);
@@ -332,9 +318,8 @@
         private ComboBox ordpostres;
         private ComboBox ordplatillos;
         private Button btBuscar;
-        private Button INICIAR_COBRO;
-        private Button Borrar_Orden;
-        private Button Cerrar;
+        private Button btAceptar;
+        private Button btCancelar;
         private PictureBox logo;
         private ToolStrip toolStrip1;
         private ToolStripSplitButton cONSULTARToolStripSplitBtn;

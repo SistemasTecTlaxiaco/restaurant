@@ -102,7 +102,7 @@ namespace Restaurant
                 //obtener resultado
                 MySqlDataReader lector = enviarSQL.ExecuteReader();
                 lector.Read();
-                clMesa usuario = new clMesa(lector);
+                clMesa usuario = new clMesa();
                 return usuario;
             }
             catch

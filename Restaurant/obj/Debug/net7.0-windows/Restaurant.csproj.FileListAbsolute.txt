@@ -45,3 +45,15 @@ C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\Rest
 C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\Restaurant.dll
 C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\refint\Restaurant.dll
 C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\Restaurant.pdb
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\Restaurant.exe
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\Restaurant.deps.json
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\Restaurant.runtimeconfig.json
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\Restaurant.dll
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\Restaurant.pdb
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\ClasesSistemaVentas.dll
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\itextsharp.dll
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\bin\Debug\net7.0-windows\ClasesSistemaVentas.pdb
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\Restaurant.csproj.CopyComplete
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\Restaurant.genruntimeconfig.cache
+C:\Users\LUCERO\Desktop\rest\restaurant\Restaurant\obj\Debug\net7.0-windows\ref\Restaurant.dll

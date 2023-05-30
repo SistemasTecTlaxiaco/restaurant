@@ -9,6 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="ClasesSistemaVentas">
+      <HintPath>..\..\..\PuntoVenta-1\Sistemas_de_Ventas\Sistemas_de_Ventas\bin\Debug\ClasesSistemaVentas.dll</HintPath>
+    </Reference>
     <Reference Include="itextsharp">
       <HintPath>..\..\..\PuntoVenta-1\Sistemas_de_Ventas\Sistemas_de_Ventas\bin\Debug\itextsharp.dll</HintPath>
     </Reference>

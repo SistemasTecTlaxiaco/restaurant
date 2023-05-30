@@ -11,14 +11,14 @@ namespace Restaurant
     public class clConsultasOrdenar
     {
         //actualizar stock de ordenar
-        public static void ActualizaStock(string IdOrdenar, string cantidad)
+        public static void ActualizaStock(string codigo, string cantidad)
         {
             try
             {
-                clOrdenar prod = BuscarporIdOrdenar(int.Parse(IdOrdenar));
+                clOrdenar prod = BuscarPorCodigo(int.Parse(codigo));
                 prod.Stock1 = prod.Stock1 + float.Parse(cantidad);
                 clConexion conexion = new clConexion();
-                string consulta = "update restaurante.Ordenar set Stock = " + prod.Stock1 + " where IdOrdenar = " + prod.IdOrdenar1 + ";";
+                string consulta = "update restaurante.Ordenar set Stock = " + prod.Stock1 + " where codigo = " + prod.Codigo1 + ";";
                 MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion.ObtenerConexion());
                 enviarSQL.ExecuteNonQuery();
             }
@@ -27,13 +27,13 @@ namespace Restaurant
                 MessageBox.Show("Error en la conexion!!!");
             }
         }
-        //buscar producto por codigo IdOrdenar
-        public static clOrdenar BuscarporIdOrdenar(int IdOrdenar)
+        //buscar producto por codigo 
+        public static clOrdenar BuscarPorCodigo(int codigo)
         {
             try
             {
                 clConexion conexion = new clConexion();
-                string consulta = "SELECT * FROM restaurante.Ordenar where IdCliente=" + IdOrdenar;
+                string consulta = "SELECT * FROM restaurante.Ordenar where Codigo=" + codigo;
                 MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion.ObtenerConexion());
                 enviarSQL.ExecuteNonQuery();
                 //obtener resultado
@@ -146,7 +146,7 @@ namespace Restaurant
                 string consulta = "update restaurante.Ordenar set " +
                                   "desayunos='" + producto.desayunos1 + "'," +
                                   "platillos='" + producto.platillos1 + "',postres=" + producto.postres1 + ",bebidas=" + producto.bebidas1 +
-                                  ",Stock= " + producto.Stock1 + ",Iva=" + producto.IVA1 + " where IdOrdenar=" + producto.IdOrdenar1 + ";";
+                                  ",Stock= " + producto.Stock1 + ",Iva=" + producto.IVA1 + " where Codigo=" + producto.Codigo1 + ";";
                 MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion.ObtenerConexion());
                 enviarSQL.ExecuteNonQuery();
             }
@@ -162,8 +162,8 @@ namespace Restaurant
             try
             {
                 clConexion conexion = new clConexion();
-                string consulta = "insert into Ordenar(IdOrdenar,platillos,desayunos,postres,bebidas,Iva,Stock) " +
-                                  "values(" + Orden.IdOrdenar1 + ",'" + Orden.platillos1 + "','" +
+                string consulta = "insert into Ordenar(Codigo,platillos,desayunos,postres,bebidas,Iva,Stock) " +
+                                  "values(" + Orden.Codigo1 + ",'" + Orden.platillos1 + "','" +
                                   Orden.desayunos1 + "','" + Orden.postres1 + "'," +
                                   Orden.bebidas1 + ","  + "," + Orden.IVA1 + "," + Orden.Stock1 + ")";
                 MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion.ObtenerConexion());
@@ -180,7 +180,7 @@ namespace Restaurant
         public static void EliminarProducto(clOrdenar Ordenes)
         {
             clConexion conexion = new clConexion();
-            string consulta = "delete from Ordenar where IdOrdenar=" + Ordenes.IdOrdenar1 + ";";
+            string consulta = "delete from Ordenar where Codigo=" + Ordenes.Codigo1 + ";";
             MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion.ObtenerConexion());
             enviarSQL.ExecuteNonQuery();
         }
@@ -191,7 +191,7 @@ namespace Restaurant
             try
             {
                 clConexion conexion = new clConexion();
-                string consulta = "SELECT MAX(IdOrdenar) FROM Ordenar";
+                string consulta = "SELECT MAX(Codigo) FROM Ordenar";
                 MySqlCommand enviarSQL = new MySqlCommand(consulta, conexion.ObtenerConexion());
                 enviarSQL.ExecuteNonQuery();
                 MySqlDataReader lector = enviarSQL.ExecuteReader();

@@ -31,22 +31,46 @@ namespace Restaurant
             TOTAL.Text = null;
             TOTAL.Enabled = false;
 
-            INICIAR_COBRO.Enabled = false;
-            INICIAR_COBRO.Visible = false;
-            Borrar_Orden.Enabled = false;
-            Borrar_Orden.Visible = false;
-            Cerrar.Enabled = false;
-            Cerrar.Visible = false;
+            btAceptar.Enabled = false;
+            btAceptar.Visible = false;
+            btCancelar.Enabled = false;
+            btCancelar.Visible = false;
             //
             btBuscar.Enabled = true;
             btBuscar.Visible = true;
         }
-        private void INICIAR_COBRO_Click(object sender, EventArgs e)
+        private void btAceptar_Click(object sender, EventArgs e)
         {
-            Guardar();
-            Iniciar();
-            Limpiar();
-            Consultar();
+            if (operacion == "nuevo")
+            {
+                clOrdenar prod = new clOrdenar();
+                prod.desayunos1 = Orddesayuno.Text;
+                prod.platillos1 = ordplatillos.Text;
+                prod.postres1 = ordpostres.Text;
+                prod.bebidas1 = ordbebidas.Text;
+
+                clConsultasOrdenar.NuevoOrden(prod);
+            }
+            if (operacion == "editar")
+            {
+                clOrdenar prod = new clOrdenar();
+                prod.desayunos1 = Orddesayuno.Text;
+                prod.platillos1 = ordplatillos.Text;
+                prod.postres1 = ordpostres.Text;
+                prod.bebidas1 = ordbebidas.Text;
+
+                clConsultasOrdenar.EditarProducto(prod);
+            }
+            if (operacion == "eliminar")
+            {
+                clOrdenar prod = new clOrdenar();
+                prod.desayunos1 = Orddesayuno.Text;
+                prod.platillos1 = ordplatillos.Text;
+                prod.postres1 = ordpostres.Text;
+                prod.bebidas1 = ordbebidas.Text;
+
+                clConsultasOrdenar.EliminarProducto(prod);
+            }
         }
         private void Borrar_Orden_Click(object sender, EventArgs e)
         {
@@ -75,7 +99,7 @@ namespace Restaurant
             };
             dato.Iniciar(modelo);
         }
-        private void Consultar()
+       /* private void Consultar()
         {
             foreach (var item in dato.Consultar())
             {
@@ -87,7 +111,7 @@ namespace Restaurant
                 fila["TOTAL"] = item.Total;
                 Tabla.Rows.Add(fila);
             }
-        }
+        }*/
         private void InicializaNuevo()
         {
             operacion = "nuevo";
@@ -103,12 +127,10 @@ namespace Restaurant
             TOTAL.Text = null;
             TOTAL.Enabled = true;
 
-            INICIAR_COBRO.Enabled = true;
-            INICIAR_COBRO.Visible = true;
-            Borrar_Orden.Enabled = true;
-            Borrar_Orden.Visible = true;
-            Cerrar.Enabled = true;
-            Cerrar.Visible = true;
+            btAceptar.Enabled = true;
+            btAceptar.Visible = true;
+            btCancelar.Enabled = true;
+            btCancelar.Visible = true;
 
             btBuscar.Enabled = false;
             btBuscar.Visible = false;
@@ -130,12 +152,10 @@ namespace Restaurant
             TOTAL.Enabled = true;
 
 
-            INICIAR_COBRO.Enabled = true;
-            INICIAR_COBRO.Visible = true;
-            Borrar_Orden.Enabled = true;
-            Borrar_Orden.Visible = true;
-            Cerrar.Enabled = true;
-            Cerrar.Visible = true;
+            btAceptar.Enabled = true;
+            btAceptar.Visible = true;
+            btCancelar.Enabled = true;
+            btCancelar.Visible = true;
             //
             btBuscar.Enabled = true;
             btBuscar.Visible = true;
@@ -153,12 +173,10 @@ namespace Restaurant
             ordbebidas.Text = null;
             ordbebidas.Enabled = false;
 
-            INICIAR_COBRO.Enabled = true;
-            INICIAR_COBRO.Visible = true;
-            Borrar_Orden.Enabled = true;
-            Borrar_Orden.Visible = true;
-            Cerrar.Enabled = true;
-            Cerrar.Visible = true;
+            btAceptar.Enabled = true;
+            btAceptar.Visible = true;
+            btCancelar.Enabled = true;
+            btCancelar.Visible = true;
 
             btBuscar.Enabled = true;
             btBuscar.Visible = true;
@@ -212,7 +230,7 @@ namespace Restaurant
         {
             try
             {
-                clOrdenar producto = clConsultasOrdenar.BuscarporIdOrdenar(int.Parse(Orddesayuno.Text));
+                clOrdenar producto = clConsultasOrdenar.BuscarPorCodigo(int.Parse(Orddesayuno.Text));
                 Orddesayuno.Text = producto.desayunos1;
                 ordplatillos.Text = producto.platillos1;
                 ordpostres.Text = producto.postres1;
@@ -235,7 +253,7 @@ namespace Restaurant
 
         private void btBuscar_Click(object sender, EventArgs e)
         {
-
+            presionaBuscar();
         }
 
         private void nUEVOToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
@@ -255,7 +273,7 @@ namespace Restaurant
 
         private void aCTUALIZARSTOCKToolStripSplitBtn_ButtonClick(object sender, EventArgs e)
         {
-           
+
         }
     }
     //El usuario Nelsy21 realizó modificación al código, debido a problemas tecnicos en su equipo no realizó los cambios desde su usuario
